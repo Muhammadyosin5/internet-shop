@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@700&family=Poppins:wght@600&family=Zen+Dots&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Zen Dots', cursive;
+!important;
+    color: #999;
+}
+.left {
+    margin-left: 20vw;
+}
+li:hover{
+    background-color: #ffff;
+    border-radius: 5px;
+}
+
+.icon {
+    margin-left: 40px;
+}
+
+.fas {
+    color: blue;
+}
+
+.size {
+    width: 80px;
+    height: 60px;
+}
+
+.row-1 {
+    display: flex;
+}
+
+.select {
+    width: 20px;
+    height: 10px;
+}
+.button-1{
+    margin-top: 30px;
+    width: 220px;
+    height: 60px;
+}
+.name{
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 18px;
+    border: 1px solid black;
+    max-width: 90%;
+    margin: 55px auto 30px;
+    height: 40px;
+}
+.e-mail{
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 18px;
+    border: 1px solid black;
+    max-width: 90%;
+    margin: auto;
+    height: 40px;
+}
+/*.input{*/
+/*    max-width: 90% !important;*/
+/*    margin-left: 12px !important;*/
+
+/*}*/
+.form-control{
+    max-width: 90% !important;
+    margin: 10px auto 10px !important;
+    border-radius: 5px;
+}
